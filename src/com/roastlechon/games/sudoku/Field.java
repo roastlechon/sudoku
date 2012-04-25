@@ -8,14 +8,12 @@ import javax.swing.text.MaskFormatter;
 
 public class Field extends JFormattedTextField {
 	
-	public Field() {
+	public Field(int value) {
 		super(getMaskFormatter());
 		Dimension dimension = new Dimension(20, 20);
 		setPreferredSize(dimension);
-	}
-
-	public static void main(String[] args) {
-		new Field();
+		setHorizontalAlignment(JFormattedTextField.CENTER);
+		setValue(value);
 	}
 	
 	public static MaskFormatter getMaskFormatter() {

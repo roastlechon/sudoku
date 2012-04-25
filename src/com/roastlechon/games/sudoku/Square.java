@@ -45,6 +45,7 @@ public class Square {
 	
 	private static int getZone(int index) {
 		int zone = 0;
+		
 		int col = getCol(index);
 		int row = getRow(index);
 		
