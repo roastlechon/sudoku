@@ -1,7 +1,9 @@
 <h1>Sudoku Generator</h1>
 <p>Feature To Do List</p>
-Difficulty setting
-Difficulty on pop up
-Save button
-Score list
-Name
+<ul>
+	<li>Difficulty setting</li>
+	<li>Difficulty on pop up</li>
+	<li>Save button</li>
+	<li>Score list</li>
+	<li>Name</li>
+</ul>
